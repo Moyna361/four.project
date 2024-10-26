@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: roboto;
+}
+body {
+    overflow-x: hidden;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #fff9ea;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-img {
+    background-color: #fff9ea;
+}
+
+.font-button {
+    height: 38px;
+    width: 122px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: none;
+    margin-left: 32px;
+    background-color: #ffcb45;
+}
+
+/* hero-section */
+
+.hero-container {
+    background-image: url('../images/shapes.jpg');
+    height: 94vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-first {
+    display: flex;
+    align-items: center;
+}
+
+.hero-heading {
+    font-size: 60px;
+    margin-bottom: 21px;
+}
+    
+.about-container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about-content {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* menu-items */
+
+.popular-container {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.items {
+    background-color: #f1f1f1;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.popular-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+/* review-section */
+
+.img-container {
+    margin-left: 100px;
+}
+
+.review-container {
+    display: flex;
+}
+
+.review {
+    margin-top: 40px;
+}
+
+.review-card {
+    margin-top: 32px;
+    display: flex;
+    g
+    justify-content: ;
+}
+
+/* discount */
+
+.discount-container {
+    background-image: url("../images/unsplash_2lWGQ02DGL8.png");
+    background-size: contain;
+    height: 330px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* footer */
+
+.footer-items {
+    background-image: url('../images/bg-image.png');
+    height: 500px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-facebook {
+
+}

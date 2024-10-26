@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/style.css">
 
@@ -11,7 +14,7 @@
 <body>
    <header>
     <nav>
-        <img height="100px" width="100px" src="./images/food img.jpeg">
+        <img class="nav-img" height="30px" width="150px" src="./images/logo.jpg">
         <ul>
             <li>Home</li>
             <li>Manu</li>
@@ -19,15 +22,119 @@
             <li>About</li>
             <li>Contact</li>
         </ul>
-        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <div>
+        <i class="fa-solid fa-magnifying-glass fa-xl" style="margin-right:32px ;"></i>
         <i class="fa-solid fa-cart-shopping"></i>
-        <button>Sing in</button>
+        <button class="font-button">
+            <i class="fa-solid fa-arrow-right-to-bracket" style="margin-right: 15px;"></i>
+            Sing in</button>
+    </div>
 
 
     </nav>
+    <!-- main-section -->
+     <main>
+        <!-- hero-section -->
+    <section class="hero-container">
+        <div class="hero-heading">
+        <div class="hero-content">
+            <p class="hero-first">Be The Fastest In <br>Delivery Your <span>Food</span></p>
+            <p class="hero-sec">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit ut aliquam, purus sit amet</p>
+            <button class="font-button">
+               
+                Get started</button>
+
+        </div>
+    </div>
+        <div>
+            <img src="./images/img-hero.png" alt="">
+        </div>
+
+        
+    </section>
+
+    <!-- about section -->
+
+    <section class="about-container">
+        
+        <p class="span">How it works</p>
+        <h3 style="margin-top: 10px;">What We Serve</h3>
+        <p class="works2">Product Quality Is Our Priority, And Always Guarantees <br>Halal And Safety Until It Is In Your Hands.</p>
+        <div class="about-content">
+      <div>
+        <img src="./images/order 1.png" alt="">
+        <h3>Easy To Order</h3>
+        <p>You only order through the app</p>
+    </div>
+    <div>
+        <img src="./images/courier 1.png" alt="">
+        <h3>Easy To Order</h3>
+        <p>You only order through the app</p>
+    </div>
+    <div>
+        <img src="./images/delivery 1.png" alt="">
+        <h3>Easy To Order</h3>
+        <p>You only order through the app</p>
+    </div>
+    
+     </div>
+    </section>
+
+    <!-- menu-items -->
+
+    <section class="popular-container">
+        <p class="span">Our menu</p>
+        <h3 style="margin-top: 12px;">Our Popular Menu</h3>
+        <p class="works2">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit ut aliquam</p>
+
+        <div class="popular-content">
+
+            <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                <img class="items" src="./images/unsplash_G6wx5j5-dR8.png" alt="">
+                <h4>Mie Ramen</h4>
+                <p>lorem ipsum</p>
+                <div style="display: flex; justify-content: space-between; margin: 8px 20px;">
+                    <span class="money">$ 20.2</span>
+
+                    <span><i class="fa-solid fa-heart"></i></span>
+
+                </div>
+       
+            </div>
+            .works2 {
+                margin-top: 20px;
+                color: #616161;
+            }
+           
+
+            <div style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                <img class="items" src="./images/unsplash_SqYmTDQYMjo (1).png" alt="">
+                <h4>Spaghetti</h4>
+                <p>lorem ipsum</p>
+                <div style="display: flex; justify-content: space-between; margin: 8px 20px;"><span class="money">$ 20.2</span>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    </main>
+
+
 
 
    </header>
+   <br><br>
+
+   <main>
+   
+ 
+   </main>
     
 </body>
 </html>
